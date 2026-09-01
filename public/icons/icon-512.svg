@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="ExampleCo app icon">
+  <rect width="512" height="512" rx="96" fill="#111827"/>
+  <text x="256" y="306" fill="#f8fafc" text-anchor="middle" font-family="Arial, sans-serif" font-size="170" font-weight="800">EC</text>
+  <path d="M120 378h272" stroke="#14b8a6" stroke-width="32" stroke-linecap="round"/>
+</svg>

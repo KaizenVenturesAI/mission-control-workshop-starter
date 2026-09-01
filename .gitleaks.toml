@@ -1,0 +1,20 @@
+title = "Mission Control white-label starter secret scanning"
+
+[extend]
+useDefault = true
+
+# The default LinkedIn client-secret rule mistakes these two CRM schema field
+# names for credentials. Limit the exception to the exact rule, file, and
+# non-secret field-name lines so every other secret finding still fails CI.
+[[rules]]
+id = "linkedin-client-secret"
+
+  [[rules.allowlists]]
+  description = "Allow non-secret LinkedIn CRM field names"
+  condition = "AND"
+  regexTarget = "line"
+  paths = ['''^src/app/api/crm/accounts/route\.ts$''']
+  regexes = [
+    '''linkedinIndustry:\s+linkedinIndustry\s+\|\|\s+undefined''',
+    '''"linkedinCompanyType"''',
+  ]

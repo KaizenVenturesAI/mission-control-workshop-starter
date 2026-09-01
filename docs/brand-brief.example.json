@@ -1,0 +1,45 @@
+{
+  "company": {
+    "legalName": "Example Client LLC",
+    "displayName": "Example Client",
+    "shortName": "ExampleCo",
+    "slug": "example-client",
+    "repositoryName": "example-client-mission-control"
+  },
+  "product": {
+    "name": "Mission Control",
+    "tagline": "Private operating workspace for client teams, workflows, and action tracking.",
+    "audience": "Operators, executives, and implementation teams using a private workspace.",
+    "tone": ["clear", "direct", "operator-grade"],
+    "supportEmail": "operator@example.invalid",
+    "baseUrl": "https://example.com"
+  },
+  "brand": {
+    "initials": "EC",
+    "colors": {
+      "primary": "#14b8a6",
+      "secondary": "#f59e0b",
+      "accent": "#38bdf8",
+      "background": "#090b0f",
+      "surface": "#111827",
+      "border": "#334155",
+      "text": "#f8fafc",
+      "textSecondary": "#cbd5e1"
+    },
+    "typography": {
+      "sans": "Inter",
+      "mono": "Geist Mono"
+    },
+    "prohibitedTerms": ["Prior Client Name"]
+  },
+  "assets": {
+    "license": "Fictional demo assets for dry-run only",
+    "attribution": "Generated placeholder assets",
+    "logo": "public/brand/starter-logo.svg",
+    "favicon": "public/icons/icon-512.svg",
+    "socialPreview": "public/brand/starter-og.svg"
+  },
+  "modules": {
+    "optionalEnabled": ["strategy", "brain"]
+  }
+}

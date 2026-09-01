@@ -1,0 +1,102 @@
+[
+  {
+    "id": "role-admin",
+    "name": "Admin",
+    "description": "Full access to all Mission Control modules and settings",
+    "permissions": {
+      "dashboard": "edit",
+      "crm": "edit",
+      "revenue": "edit",
+      "hr": "edit",
+      "strategy": "edit",
+      "brain": "edit",
+      "devlog": "edit",
+      "calendar": "edit",
+      "usage": "edit",
+      "permissions": "edit",
+      "rulebook": "edit",
+      "settings": "edit",
+      "action_board": "edit"
+    }
+  },
+  {
+    "id": "role-leadership",
+    "name": "Leadership",
+    "description": "Full visibility with edit access to most modules, view-only on settings",
+    "permissions": {
+      "dashboard": "edit",
+      "crm": "edit",
+      "revenue": "edit",
+      "hr": "edit",
+      "strategy": "edit",
+      "brain": "edit",
+      "devlog": "edit",
+      "calendar": "edit",
+      "usage": "edit",
+      "permissions": "edit",
+      "rulebook": "edit",
+      "settings": "view",
+      "action_board": "edit"
+    }
+  },
+  {
+    "id": "role-operations",
+    "name": "Operations",
+    "description": "Operational access to day-to-day modules",
+    "permissions": {
+      "dashboard": "edit",
+      "crm": "edit",
+      "revenue": "edit",
+      "hr": "edit",
+      "strategy": "view",
+      "brain": "view",
+      "devlog": "view",
+      "calendar": "edit",
+      "usage": "view",
+      "permissions": "view",
+      "rulebook": "view",
+      "settings": "hidden",
+      "action_board": "edit"
+    }
+  },
+  {
+    "id": "role-coach",
+    "name": "Coach",
+    "description": "Limited access for coaching staff — dashboard and calendar only",
+    "permissions": {
+      "dashboard": "view",
+      "crm": "hidden",
+      "revenue": "hidden",
+      "hr": "hidden",
+      "strategy": "hidden",
+      "brain": "hidden",
+      "devlog": "hidden",
+      "calendar": "view",
+      "usage": "hidden",
+      "permissions": "hidden",
+      "rulebook": "hidden",
+      "settings": "hidden",
+      "action_board": "hidden"
+    }
+  },
+  {
+    "id": "role-viewer",
+    "name": "View Only",
+    "description": "View-only access to all visible Mission Control modules",
+    "permissions": {
+      "dashboard": "view",
+      "crm": "view",
+      "revenue": "view",
+      "hr": "view",
+      "strategy": "view",
+      "brain": "view",
+      "devlog": "view",
+      "calendar": "view",
+      "usage": "view",
+      "permissions": "view",
+      "rulebook": "view",
+      "settings": "hidden",
+      "action_board": "view"
+    }
+  }
+]

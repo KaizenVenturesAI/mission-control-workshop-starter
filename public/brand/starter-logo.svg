@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="320" viewBox="0 0 512 320" role="img" aria-label="ExampleCo Mission Control logo">
+  <rect width="512" height="320" rx="48" fill="#111827"/>
+  <path d="M88 202V118h126v32h-88v20h78v30h-78v2h92v32H88Z" fill="#f8fafc"/>
+  <path d="M244 236c-33 0-58-24-58-58s25-58 58-58c27 0 48 15 55 39h-38c-4-6-10-9-18-9-14 0-23 11-23 28s9 28 23 28c8 0 14-3 18-9h38c-7 24-28 39-55 39Z" fill="#14b8a6"/>
+  <path d="M325 236v-84h-31v-32h100v32h-31v84h-38Z" fill="#f59e0b"/>
+  <circle cx="418" cy="178" r="34" fill="none" stroke="#14b8a6" stroke-width="10"/>
+</svg>
